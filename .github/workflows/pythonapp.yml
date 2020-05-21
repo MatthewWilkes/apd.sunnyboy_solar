@@ -33,6 +33,3 @@ jobs:
     - name: Lint with mypy
       run: |
         pipenv run mypy --namespace-packages -p apd.sunnyboy_solar
-    - name: Test with pytest
-      run: |
-        pipenv run pytest
