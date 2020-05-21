@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+name = "piwheels"
+url = "https://piwheels.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+flake8 = "*"
+black = "*"
+pre-commit = "*"
+wheel = "*"
+twine = "*"
+
+[packages]
+apd-sunnyboy-solar = {editable = true,path = "."}
+
+[requires]
+
+[pipenv]
+allow_prereleases = true
